@@ -4,6 +4,7 @@
 /* -------Common Styles or Utilities------- */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /*-----------------------------
@@ -185,12 +186,12 @@ footer{
         flex-direction: column;
     }
     .heading-info h1{
-        font-size: 350%;
+        font-size: auto;
     }
     .heading-banner img{
-        width: 70%;
+        width: 60%;
         height: auto;
-        float: right;
+        padding-left: 25%;
         padding-bottom: 15%;
     }
     .player-list, .video-list{
@@ -228,7 +229,7 @@ footer{
         width: 100%;
     }
     .heading-division{
-        padding-left: 0;
+        padding-left: auto;
         padding-right: 0;
         flex-direction: column;
     }
@@ -238,7 +239,7 @@ footer{
     .heading-banner img{
         width: 70%;
         height: auto;
-        float: right;
+        float: center;
         padding-bottom: 10%;
     }
     .player-list, .video-list{
