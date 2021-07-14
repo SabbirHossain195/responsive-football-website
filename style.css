@@ -185,6 +185,9 @@ footer{
         padding-right: 0;
         flex-direction: column;
     }
+    .heading-info{
+        padding-left: 5%;
+    }
     .heading-info h1{
         font-size: auto;
     }
@@ -211,7 +214,7 @@ footer{
     }
     .explore-division{
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 2%;
         float: left;
         margin-bottom: auto;
     }
@@ -224,7 +227,7 @@ footer{
 
 
 /* Tablet Devices */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 688px) and (max-width: 1024px) {
     .heading-section{
         width: 100%;
     }
@@ -259,7 +262,7 @@ footer{
     }
     .explore-division{
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 5%;
         float: left;
         margin-bottom: 100px;
     }
