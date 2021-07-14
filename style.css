@@ -99,7 +99,7 @@ body{
     margin-right: 100px;
     padding: 5px 50px 40px 60px;
 }
-.exclusive-division h2{
+h2{
     font-size: 48px;
 }
 .video-list{
@@ -119,4 +119,18 @@ body{
     text-decoration: none;
     color: white;
     padding: 10px 32px;
+}
+
+/*-----------------------------
+     Explore Section Styles 
+------------------------------*/
+
+.explore-division{
+    margin-top: 70px;
+    margin-left: 180px;
+}
+.explore-option a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #2D25A0;
 }
