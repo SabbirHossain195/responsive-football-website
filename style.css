@@ -134,3 +134,37 @@ h2{
     font-size: 24px;
     color: #2D25A0;
 }
+
+
+/*-----------------------------
+         Footer Styles 
+------------------------------*/
+
+footer{
+    margin-top: 180px;
+    text-align: center;
+}
+.logo img{
+    height: 110px;
+    width: 484px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 32px;
+    width: 32px;
+    margin-right: 14px;
+    border-radius: 16px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: black;
+}
+.social-icon i{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
