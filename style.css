@@ -87,3 +87,36 @@ body{
 .player img{
     height: 256px;
 }
+
+/*-----------------------------
+     Exclusive Section Styles 
+------------------------------*/
+
+.exclusive-division{
+    margin-top: 70px;
+    box-shadow: 10px 10px 50px rgb(209, 209, 209);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px 50px 40px 60px;
+}
+.exclusive-division h2{
+    font-size: 48px;
+}
+.video-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+}
+.exclusive-button{
+    display: flex;
+    justify-content: center;
+    background-color: #E02C6D;
+    height: 44px;
+    width: 168px;
+    margin-left: 1000px;
+}
+.exclusive-button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 32px;
+}
